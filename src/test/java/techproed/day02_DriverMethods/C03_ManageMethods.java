@@ -45,6 +45,8 @@ public class C03_ManageMethods {
         driver.manage().window().setPosition(new Point(50,50));//istediğimiz konuma getirir
         driver.manage().window().setSize(new Dimension(600,600));//istediğimiz size'a getirir
         Thread.sleep(3000);
+        System.out.println("sayfanın konumu"+driver.manage().window().getPosition());
+        System.out.println("sayfanın boyutları:" +driver.manage().window().getSize());
         //sayfayı kapatınız
         driver.close();
 
