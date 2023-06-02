@@ -15,7 +15,7 @@ public class Tekrar_Testi {
         System.out.println("baslık:"+ driver.getTitle());
         String istenen="youtube";
         if(actuelTitle.contains(istenen)){
-            System.out.println("PASSED TEST");
+            System.out.println(" TEST PASSED ");
         }else{
             System.out.println("TEST FAILED: " + actuelTitle);
         }
